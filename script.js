@@ -34,7 +34,7 @@ const inMoy = document.getElementById("inMoy");
         }
 
         outViews.innerHTML = views;
-        outPrice.innerHTML = price;
+        outPrice.innerHTML = `$${price}`;
         outMoy.innerHTML = moy;
     });
 });
